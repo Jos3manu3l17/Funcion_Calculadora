@@ -1,9 +1,10 @@
 Proyecto Calculadora en JavaScript
+--
 
 1. Objetivo del Proyecto
 
 El objetivo de este proyecto fue desarrollar una calculadora modular en JavaScript capaz de realizar operaciones matemáticas básicas.
-
+--
 Las operaciones implementadas fueron:
 
 - Suma
@@ -25,6 +26,7 @@ Dado esta implementación en el proyecto, se exporto y se importó en el index p
 ---
 
 2. Estructura del Proyecto
+--
 
 Se organizó el proyecto de la siguiente manera:
 
@@ -48,6 +50,7 @@ Esta estructura permite mantener el código organizado y facilita el mantenimien
 ---
 
 3. Archivos de Operaciones Matemáticas
+--
 
 Cada operación fue creada en un archivo independiente como buena práctica de manejo de funciones.
 
@@ -117,6 +120,7 @@ Resultado:
 ---
 
 4. Archivo de Validación (isNumber.js)
+--
 
 Este archivo permite verificar que el usuario solo ingrese números válidos.
 
@@ -183,6 +187,7 @@ false
 ---
 
 5. Archivo Principal (index.js)
+--
 
 Este archivo controla el flujo principal del programa.
 
@@ -218,6 +223,7 @@ La instrucción import permite utilizar funciones creadas en otros archivos.
 ---
 
 6. Entrada de Datos
+--
 
 El usuario debe ingresar dos valores.
 
@@ -252,6 +258,7 @@ Se convierte en:
 ---
 
 7. Validación de Datos
+--
 
 Después de ingresar el dato se valida.
 
@@ -294,6 +301,7 @@ Y el programa vuelve a solicitar datos.
 ---
 
 8. Ciclo do while
+--
 
 Se utilizó un ciclo repetitivo.
 
@@ -328,6 +336,7 @@ Mientras sea verdadero continuará ejecutándose.
 ---
 
 9. Problema Detectado
+--
 
 Actualmente el programa presenta un error.
 
@@ -348,6 +357,7 @@ Nunca termina.
 ---
 
 10. Solución del Problema
+--
 
 Se debe utilizar la instrucción "break".
 
@@ -382,6 +392,7 @@ Rompe el ciclo y permite continuar con el programa.
 ---
 
 11. Ejecución de Operaciones
+--
 
 Después de salir del ciclo se ejecutan las operaciones.
 
@@ -407,6 +418,7 @@ Resultados:
 ---
 
 12. Mostrar Resultados
+--
 
 Se imprimen en consola.
 
@@ -427,6 +439,7 @@ Salida esperada:
 ---
 
 13. Conceptos Aprendidos
+--
 
 Durante el desarrollo del proyecto en la clase se trabajaron conceptos fundamentales de programación.
 
@@ -502,6 +515,7 @@ break
 
 ---
 14. Instalación del Proyecto con Node.js
+--
 
 Para poder desarrollar la calculadora fue necesario inicializar un proyecto con Node.js.
 
@@ -528,6 +542,7 @@ Ejemplo
 ---
 
 15. Instalación de Dependencias (node_modules)
+--
 
 Para que el proyecto funcionara correctamente fue necesario instalar librerías externas.
 
@@ -554,6 +569,7 @@ No es recomendable modificar estos archivos manualmente.
 ---
 
 16. Instalación de prompt-sync
+--
 
 Para poder recibir datos desde la consola fue necesario instalar la librería:
 
@@ -573,6 +589,7 @@ Después de ejecutar este comando, Node.js realiza automáticamente las siguient
 ---
 
 17. Uso de prompt-sync para recibir datos por consola
+--
 
 En JavaScript normalmente la función:
 
@@ -626,6 +643,7 @@ nombre = "Jose"
 ---
 
 18. Importación de Módulos que ya fue explicada antes
+--
 
 En este proyecto cada operación matemática fue separada en archivos independientes.
 
@@ -663,6 +681,7 @@ significa:
 ---
 
 19. Dependencias Internas Instaladas
+--
 
 Durante la instalación de prompt-sync aparecieron automáticamente otras carpetas dentro de 
 node_modules.
@@ -679,6 +698,7 @@ Node.js instala automáticamente esas dependencias adicionales.
 ---
 
 21. Conclusión
+--
 
 Este proyecto permitió desarrollar una calculadora modular en JavaScript utilizando Node.js.
 
